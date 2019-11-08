@@ -1,0 +1,11 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "构建工具创建",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "isu5cn",
+  "license": "ISC"
+}
