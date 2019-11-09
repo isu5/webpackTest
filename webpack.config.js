@@ -26,7 +26,7 @@ module.exports ={
     },
     plugins:[
         new CleanWebpackPlugin(['dist'], {
-            root: path.resolve(__dirname, '../'),   //根目录
+            path: path.resolve(__dirname, '../'),   //根目录
         }),
         new HtmlWebpackPlugin({
             template:'./app/views/index.html'
